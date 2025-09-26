@@ -1,0 +1,105 @@
+/* Body background */
+body {
+  background: linear-gradient(135deg, #1e1e2f, #2b2b3c);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form container */
+.form {
+  width: 400px;
+  padding: 40px;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #ffffff, #f0f4ff);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  color: #333; /* Form text dark for readability */
+}
+
+/* Form heading */
+.form h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #4a90e2;
+  text-shadow: 0 0 5px #00ffe0, 0 0 10px #2984e6;
+}
+
+/* Labels */
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #111; /* Dark label text */
+}
+
+/* Inputs */
+.form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #d1d9e6;
+  background-color: #f9faff;
+  color: #111; /* Dark text for inputs */
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form input:focus {
+  border-color: #00ffe0;
+  box-shadow: 0 0 5px #00ffe0, 0 0 10px #007bff;
+}
+
+/* Button */
+.form button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #00ffe0, #007bff);
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Paragraph text */
+.form p {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}
+
+/* Links */
+.form a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #00ffe0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.form a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.form input,
+.form button {
+  width: 100%;
+  box-sizing: border-box; /* ensures same width including padding + border */
+}
